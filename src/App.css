@@ -206,11 +206,6 @@ body {
   display: flex;
 }
 
-.Didar {
-  color: #000;
-  font-size: large;
-}
-
 /* End Home style */
 /* Medium <= 992px */
 
@@ -258,3 +253,50 @@ body {
     display: none;
   }
 }
+
+/* Calendar start */
+.Sample input,
+.Sample button {
+  font: inherit;
+}
+
+.Sample header {
+  background-color: #323639;
+  box-shadow: 0 0 8px rgba(171, 17, 17, 0.924);
+  padding: 20px;
+  color: rgb(47, 41, 41);
+
+}
+
+.Sample__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 18px;
+  padding: 10px;
+  color: #000;
+  border: 1px solid rgb(151, 142, 142);
+  background-color: #fefcfb;
+
+}
+
+.Sample__container>*>* {
+  margin: 10px;
+}
+
+.Sample__container__content {
+  display: flex;
+  max-width: 100%;
+  flex-basis: 420px;
+  flex-direction: column;
+  flex-grow: 100;
+  align-items: stretch;
+  padding-top: 1em;
+}
+
+.Sample__container__content .react-calendar {
+  margin: 0 auto;
+}
+
+/* Calendar End */

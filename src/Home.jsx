@@ -1,4 +1,5 @@
 import React from 'react'
+import Calander from './Calander';
 import { BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsFillBellFill } from 'react-icons/bs'
 import { LineChart, Line, BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
@@ -85,8 +86,12 @@ function Home() {
                         <h1>30</h1>
                     </div>
                 </div>
-                <div className='Didar'>
-                    <h2>Didar</h2>
+                <div className="Sample">
+                    <div className="Sample__container">
+                        <main className="Sample__container__content">
+                            <Calander />
+                        </main>
+                    </div>
                 </div>
             </div>
 
