@@ -52,38 +52,44 @@ function Home() {
     return (
         <main className='main-container'>
             <div className='main-title'>
-                <h3>DESHBOARD</h3>
+                <h3>Task Summery</h3>
             </div>
-            <div className='main-cards'>
-                <div className='card'>
-                    <div className='card-inner'>
-                        <h3>PRODUCTS</h3>
-                        <BsFillArchiveFill className='card_icon' />
+            <div className='calender'>
+                <div className='main-cards'>
+                    <div className='card'>
+                        <div className='card-inner'>
+                            <h3>PRODUCTS</h3>
+                            <BsFillArchiveFill className='card_icon' />
+                        </div>
+                        <h1>300</h1>
                     </div>
-                    <h1>300</h1>
+                    <div className='card'>
+                        <div className='card-inner'>
+                            <h3>CATAGORIES</h3>
+                            <BsFillGrid3X3GapFill className='card_icon' />
+                        </div>
+                        <h1>12</h1>
+                    </div>
+                    <div className='card'>
+                        <div className='card-inner'>
+                            <h3>CUSTOMER</h3>
+                            <BsPeopleFill className='card_icon' />
+                        </div>
+                        <h1>32</h1>
+                    </div>
+                    <div className='card'>
+                        <div className='card-inner'>
+                            <h3>ALERTS</h3>
+                            <BsFillBellFill className='card_icon' />
+                        </div>
+                        <h1>30</h1>
+                    </div>
                 </div>
-                <div className='card'>
-                    <div className='card-inner'>
-                        <h3>CATAGORIES</h3>
-                        <BsFillGrid3X3GapFill className='card_icon' />
-                    </div>
-                    <h1>12</h1>
-                </div>
-                <div className='card'>
-                    <div className='card-inner'>
-                        <h3>CUSTOMER</h3>
-                        <BsPeopleFill className='card_icon' />
-                    </div>
-                    <h1>32</h1>
-                </div>
-                <div className='card'>
-                    <div className='card-inner'>
-                        <h3>ALERTS</h3>
-                        <BsFillBellFill className='card_icon' />
-                    </div>
-                    <h1>30</h1>
+                <div className='Didar'>
+                    <h2>Didar</h2>
                 </div>
             </div>
+
             <div className='charts'>
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart

@@ -5,8 +5,12 @@ import { BsFillBellFill, BsFillEnvelopeFill, BsPersonCircle, BsSearch, BsJustify
 function Header({ OpenSidebar }) {
     return (
         <header className='header'>
+
             <div className='menu-icon'>
                 <BsJustify className='icon' onClick={OpenSidebar} />
+            </div>
+            <div>
+                <h2>Dashboard</h2>
             </div>
             <div className='header-left'>
                 <BsSearch className='icon' />
