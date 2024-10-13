@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsCart3 } from 'react-icons/bs'
+import { BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsListCheck, BsMenuButtonWideFill, BsFillGearFill } from 'react-icons/bs'
 function SideBar() {
     return (
         <aside id="sidebar">
@@ -12,37 +12,37 @@ function SideBar() {
             <ul className='sidebar-list'>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsCart3 className='icon' /> Deshboard
+                        <BsGrid1X2Fill className='icon' /> Deshboard
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsCart3 className='icon' /> Products
+                        <BsFillArchiveFill className='icon' /> Products
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsCart3 className='icon' /> Catagories
+                        <BsFillGrid3X3GapFill className='icon' /> Catagories
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsCart3 className='icon' /> Customer
+                        <BsPeopleFill className='icon' /> Customer
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsCart3 className='icon' /> Inventory
+                        <BsListCheck className='icon' /> Inventory
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsCart3 className='icon' /> Reports
+                        <BsMenuButtonWideFill className='icon' /> Reports
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsCart3 className='icon' /> Setting
+                        <BsFillGearFill className='icon' /> Setting
                     </a>
                 </li>
             </ul>
