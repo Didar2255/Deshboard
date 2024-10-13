@@ -12,11 +12,11 @@ function App() {
   }
 
   return (
-    <div className='grid-continer'>
+    <div className='grid-container'>
 
       <Header OpenSidebar={OpenSidebar}></Header>
 
-      <SideBar openSidebarToggle={openSidebarToggle}></SideBar>
+      <SideBar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}></SideBar>
       <Home></Home>
     </div>
   )
