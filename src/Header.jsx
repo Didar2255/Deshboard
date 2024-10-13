@@ -12,9 +12,9 @@ function Header() {
                 <BsSearch className='icon' />
             </div>
             <div className='header-right'>
-                <BsFillBellFill className='icon' />
-                <BsFillEnvelopeFill className='icon' />
-                <BsPersonCircle className='icon' />
+                <BsFillBellFill className='hed-icon' />
+                <BsFillEnvelopeFill className='hed-icon' />
+                <BsPersonCircle className='hed-icon' />
             </div>
         </header>
     )
