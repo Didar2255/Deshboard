@@ -1,11 +1,13 @@
 import React from 'react'
 import { BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsListCheck, BsMenuButtonWideFill, BsFillGearFill } from 'react-icons/bs'
 import { DiApple } from "react-icons/di";
+import logo from './image/download.jpg'
 function SideBar({ openSidebarToggle, OpenSidebar }) {
     return (
         <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive" : ""}>
             <div className='logo'>
-                <DiApple /> Ad_Didar
+                <img src={logo} />
+                <h4>Didar</h4>
             </div>
 
             <ul className='sidebar-list'>
