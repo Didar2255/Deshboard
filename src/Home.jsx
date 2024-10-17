@@ -1,6 +1,6 @@
 import React from 'react'
 import Calander from './Calander';
-import { BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsFillBellFill } from 'react-icons/bs'
+import { BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill } from 'react-icons/bs'
 import { LineChart, Line, BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 function Home() {
@@ -53,44 +53,47 @@ function Home() {
     return (
         <main className='main-container'>
             <div className='main-title'>
-                <h3>Task Summery</h3>
+                <h4>Task Summery</h4>
             </div>
-            <div className='main-cards'>
-                <div className='card'>
-                    <div className='card-inner'>
-                        <BsFillArchiveFill className='card_icon' />
+            <div className='card-head'>
+                <div className='main-cards'>
+                    <div className='card'>
+                        <div className='card-inner'>
+                            <BsFillArchiveFill className='card_icon' />
+                        </div>
+                        <div>
+                            <h3>300</h3>
+                        </div>
+                        <div className='card-category'>
+                            <h5>PRODUCTS</h5>
+                            <p>Task</p>
+                        </div>
                     </div>
-                    <div>
-                        <h1>300</h1>
+                    <div className='card'>
+                        <div className='card-inner'>
+                            <BsFillGrid3X3GapFill className='card_icon' />
+                        </div>
+                        <div>
+                            <h3>12</h3>
+                        </div>
+                        <div className='card-category'>
+                            <h5>CATAGORIES</h5>
+                            <p>Task</p>
+                        </div>
                     </div>
-                    <div className='card-category'>
-                        <h5>PRODUCTS</h5>
-                        <p>Task</p>
+                    <div className='card'>
+                        <div className='card-inner'>
+                            <BsPeopleFill className='card_icon' />
+                        </div>
+                        <div>
+                            <h3>32</h3>
+                        </div>
+                        <div className='card-category'>
+                            <h5>CUSTOMER</h5>
+                            <p>Task</p>
+                        </div>
                     </div>
-                </div>
-                <div className='card'>
-                    <div className='card-inner'>
-                        <BsFillGrid3X3GapFill className='card_icon' />
-                    </div>
-                    <div>
-                        <h1>12</h1>
-                    </div>
-                    <div className='card-category'>
-                        <h5>CATAGORIES</h5>
-                        <p>Task</p>
-                    </div>
-                </div>
-                <div className='card'>
-                    <div className='card-inner'>
-                        <BsPeopleFill className='card_icon' />
-                    </div>
-                    <div>
-                        <h1>32</h1>
-                    </div>
-                    <div className='card-category'>
-                        <h5>CUSTOMER</h5>
-                        <p>Task</p>
-                    </div>
+
                 </div>
                 <div className="Sample">
                     <div className="Sample__container">

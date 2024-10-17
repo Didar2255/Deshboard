@@ -1,10 +1,12 @@
+/*  */
+
 body {
   margin: 0;
   padding: 0;
   background-color: #fff1ee;
   color: #9e9ea4;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -99,11 +101,17 @@ body {
   color: #000;
 }
 
-.logo {
+sidebar-list-item .logo {
   display: flex;
   color: #03263e;
   margin: 5px;
   font-size: 20px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  margin: 10px;
   align-items: center;
 }
 
@@ -115,6 +123,8 @@ body {
 
 .logo h4 {
   margin-left: 20px;
+  font-weight: 400;
+  color: #797876;
 }
 
 .sidebar-list {
@@ -123,8 +133,8 @@ body {
 }
 
 .sidebar-list-item {
-  padding: 20px 20px 20px 20px;
-  font-size: 18px;
+  padding: 10px 15px 10px 15px;
+  font-size: 14px;
   margin: 10px;
 }
 
@@ -173,9 +183,17 @@ body {
   margin: 20px;
   border-radius: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   margin: 15px 0;
+  width: 100%;
+}
+
+.card-head {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  /* margin: 20px; */
 }
 
 .card {
@@ -259,6 +277,11 @@ body {
 /* Small <= 768px */
 
 @media screen and (max-width: 768px) {
+  .card-head {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
   .main-cards {
     grid-template-columns: 1fr;
     gap: 10px;
@@ -283,6 +306,11 @@ body {
 .Sample input,
 .Sample button {
   font: inherit;
+}
+
+.Sample {
+  width: 90%;
+  margin-left: 60px;
 }
 
 .Sample header {

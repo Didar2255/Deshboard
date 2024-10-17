@@ -1,13 +1,16 @@
 import React from 'react'
-import { BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsListCheck, BsMenuButtonWideFill, BsFillGearFill } from 'react-icons/bs'
-import { DiApple } from "react-icons/di";
+import { BsFillGridFill, BsCalendar2Day, BsChatRightDotsFill, BsFillGearFill } from 'react-icons/bs'
+import { SiAsana } from "react-icons/si";
+import { GoFileMedia } from "react-icons/go";
+import { IoIosPeople } from "react-icons/io";
+import { AiTwotoneInteraction } from "react-icons/ai";
 import logo from './image/download.jpg'
 function SideBar({ openSidebarToggle, OpenSidebar }) {
     return (
         <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive" : ""}>
             <div className='logo'>
                 <img src={logo} />
-                <h4>Didar</h4>
+                <h4>Admin Deshbord</h4>
             </div>
 
             <ul className='sidebar-list'>
@@ -19,37 +22,37 @@ function SideBar({ openSidebarToggle, OpenSidebar }) {
                 </div>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsCart3 className='icon' /> Shop
+                        <BsFillGridFill className='icon' /> Dashboard
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsGrid1X2Fill className='icon' /> Deshboard
+                        <BsCalendar2Day className='icon' /> Caleder
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsFillArchiveFill className='icon' /> Products
+                        <SiAsana className='icon' /> Task
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsFillGrid3X3GapFill className='icon' /> Catagories
+                        <BsChatRightDotsFill className='icon' /> Messages
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsPeopleFill className='icon' /> Customer
+                        <GoFileMedia className='icon' /> Portfolio
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsListCheck className='icon' /> Inventory
+                        <IoIosPeople className='icon' /> Member
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
                     <a href="">
-                        <BsMenuButtonWideFill className='icon' /> Reports
+                        <AiTwotoneInteraction className='icon' /> Activity
                     </a>
                 </li>
                 <li className='sidebar-list-item'>

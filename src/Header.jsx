@@ -10,7 +10,7 @@ function Header({ OpenSidebar }) {
                 <BsJustify className='icon' onClick={OpenSidebar} />
             </div>
             <div>
-                <h2>Dashboard</h2>
+                <h4>Dashboard</h4>
             </div>
             <div className='header-left'>
                 <BsSearch className='icon' />
