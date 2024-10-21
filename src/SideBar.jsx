@@ -46,7 +46,7 @@ function SideBar({ openSidebarToggle, OpenSidebar }) {
                     </a>
                 </li>
                 <li className='sidebar-list-item'>
-                    <a href="">
+                    <a href=''>
                         <IoIosPeople className='icon' /> Member
                     </a>
                 </li>

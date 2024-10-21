@@ -2,6 +2,7 @@ import React from 'react'
 import Calander from './Calander';
 import { BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill } from 'react-icons/bs'
 import { LineChart, Line, BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import Members from './Members';
 
 function Home() {
 
@@ -146,6 +147,9 @@ function Home() {
                         <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
                     </LineChart>
                 </ResponsiveContainer>
+            </div>
+            <div className="">
+                <Members />
             </div>
         </main >
     )
