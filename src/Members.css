@@ -1,10 +1,29 @@
 .list {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
     display: flex;
     width: 100%;
     margin-top: 20px;
-
+    grid-template-columns: 1fr;
 
     .list_container {
         flex: 6;
     }
+}
+
+.list-header {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+    color: rgba(90, 86, 86, 0.976);
+}
+
+
+.list-header select {
+    border-radius: 10px;
+    border: none;
+    padding: 8px 12px;
+    border: 1px solid #dde6ed;
+    color: #526d82;
 }

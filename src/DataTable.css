@@ -22,12 +22,32 @@
         }
 
         &.Unavailable {
-            color: goldenrod;
-            background-color: rgba(189, 189, 3, 0.103);
+            color: rgb(228, 88, 53);
+            background-color: rgba(131, 169, 172, 0.478);
         }
     }
 }
 
+.availabilityStatus:hover {
+    cursor: pointer;
+}
+
+
+.table-body {
+    background-color: rgb(230, 224, 224);
+}
+
 .table-header {
     background-color: #fff1ee;
+}
+
+.table-row {
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.table-row:hover .tableCell {
+    background-color: rgb(229, 225, 223);
+    color: crimson;
 }

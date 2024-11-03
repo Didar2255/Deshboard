@@ -8,9 +8,8 @@ function Calander() {
         setDate(date);
     }
     return (
-        <div className=''>
+        <div >
             <Calender onChange={onChange} value={date} />
-
         </div>
     )
 }

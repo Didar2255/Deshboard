@@ -148,7 +148,7 @@ function Home() {
                     </LineChart>
                 </ResponsiveContainer>
             </div>
-            <div className="">
+            <div>
                 <Members />
             </div>
         </main >

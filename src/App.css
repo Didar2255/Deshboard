@@ -300,6 +300,7 @@ sidebar-list-item .logo {
   .hedaer-left {
     display: none;
   }
+
 }
 
 /* Calendar start */
@@ -352,3 +353,10 @@ sidebar-list-item .logo {
 }
 
 /* Calendar End */
+/* Member section start */
+.member-section {
+  grid-template-columns: 1fr;
+  margin-top: 50px;
+}
+
+/* member section end */
